@@ -1,0 +1,87 @@
+[
+  {
+    "description": "",
+    "displayName": "ChildrenAsReactElement",
+    "methods": [],
+    "props": {
+      "children": {
+        "defaultValue": null,
+        "description": "I would expect this to be as ReactElement or a parsable entity",
+        "name": "children",
+        "parent": {
+          "fileName": "src/ChildrenAsReactElement/index.tsx",
+          "name": "ChildrenAsReactElementProps"
+        },
+        "required": false,
+        "type": {
+          "name": "enum",
+          "raw": "ReactElement<any, string | ((props: any) => ReactElement<any, string | ... | (new (props: any) => Component<any, any, any>)> | null) | (new (props: any) => Component<any, any, any>)> | ... 6 more ... | (ReactElement<...> & ReactPortal)",
+          "value": [
+            {
+              "value": "ReactElement<any, string | ((props: any) => ReactElement<any, string | ... | (new (props: any) => Component<any, any, any>)> | null) | (new (props: any) => Component<any, any, any>)>"
+            },
+            {
+              "value": "ReactElement<any, string | ((props: any) => ReactElement<any, string | ... | (new (props: any) => Component<any, any, any>)> | null) | (new (props: any) => Component<any, any, any>)> & string"
+            },
+            {
+              "value": "ReactElement<any, string | ((props: any) => ReactElement<any, string | ... | (new (props: any) => Component<any, any, any>)> | null) | (new (props: any) => Component<any, any, any>)> & number"
+            },
+            {
+              "value": "ReactElement<any, string | ((props: any) => ReactElement<any, string | ... | (new (props: any) => Component<any, any, any>)> | null) | (new (props: any) => Component<any, any, any>)> & false"
+            },
+            {
+              "value": "ReactElement<any, string | ((props: any) => ReactElement<any, string | ... | (new (props: any) => Component<any, any, any>)> | null) | (new (props: any) => Component<any, any, any>)> & true"
+            },
+            {
+              "value": "ReactElement<any, string | ((props: any) => ReactElement<any, string | ... | (new (props: any) => Component<any, any, any>)> | null) | (new (props: any) => Component<any, any, any>)> & ReactElement<...>"
+            },
+            {
+              "value": "ReactElement<any, string | ((props: any) => ReactElement<any, string | ... | (new (props: any) => Component<any, any, any>)> | null) | (new (props: any) => Component<any, any, any>)> & ReactNodeArray"
+            },
+            {
+              "value": "ReactElement<any, string | ((props: any) => ReactElement<any, string | ... | (new (props: any) => Component<any, any, any>)> | null) | (new (props: any) => Component<any, any, any>)> & ReactPortal"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "description": "",
+    "displayName": "ChildrenAsString",
+    "methods": [],
+    "props": {
+      "children": {
+        "defaultValue": null,
+        "description": "I would expect this to be string",
+        "name": "children",
+        "parent": {
+          "fileName": "src/ChildrenAsString/index.tsx",
+          "name": "ChildrenAsStringProps"
+        },
+        "required": false,
+        "type": {
+          "name": "enum",
+          "raw": "string | (string & {}) | (string & ReactElement<any, string | ((props: any) => ReactElement<any, string | ... | (new (props: any) => Component<any, any, any>)> | null) | (new (props: any) => Component<...>)>) | (string & ReactNodeArray) | (string & ReactPortal)",
+          "value": [
+            {
+              "value": "string"
+            },
+            {
+              "value": "string & {}"
+            },
+            {
+              "value": "string & ReactElement<any, string | ((props: any) => ReactElement<any, string | ... | (new (props: any) => Component<any, any, any>)> | null) | (new (props: any) => Component<any, any, any>)>"
+            },
+            {
+              "value": "string & ReactNodeArray"
+            },
+            {
+              "value": "string & ReactPortal"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

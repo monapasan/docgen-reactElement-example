@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "docgen-reactElement-example",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "gen-types": "node ./parseComponentProperties.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-docgen-typescript": "^1.20.5"
   }
 }
